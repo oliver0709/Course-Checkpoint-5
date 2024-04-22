@@ -426,7 +426,7 @@ while b < 25:
     a, b = b, a + b
 #1, 1, 2, 3, 5, 8, 13, 21
 ```
-### Prácticas Recomendadas
+### Prácticas Recomendadas:
 
 - Evitar Bucles Infinitos: Hay que asegurase de que el bucle while tenga una condición de terminación clara.
 - Uso de _break_ y _continue_: Se deberia utilizar break para salir de un bucle y continue para saltar al siguiente ciclo de iteración.
@@ -568,7 +568,7 @@ En resumen, map() transforma todos los elementos, mientras que filter() seleccio
 
 En ciertas ocasiones, no obstante, cabe destacar que las comprensiones no resultan sólo útiles porque pueden ser escritas en una sola línea de código, sino que también pueden llegar a ser más rápidas que otros métodos. Es muy importante, por lo tanto, medir su tiempo de ejecución para saber si son una buena elección.
 
-### Prácticas Recomendadas
+### Prácticas Recomendadas:
 
 - Legibilidad: No se debe sacrificar la legibilidad por la concisión; las comprensiones complejas deben dividirse en varias líneas o reescribirse como bucles for tradicionales. 
 - Uso Moderado: Hay que utilizar las comprensiones de listas cuando mejoren la claridad y la eficiencia del código. En ese sentido, se debe tener cuidado con su uso y no abusar de ellas. Resulta fácil caer en la tentación de acabar escribiendo comprensiones que son tan largas que prácticamente son imposibles de leer, algo que puede no ser muy buena idea.
@@ -827,7 +827,7 @@ funcion(10, 20, *args, **kwargs)
 #z = Tal
 ```
 
-### Prácticas Recomendadas
+### Prácticas Recomendadas:
 
 - Uso de Palabras Clave: Cuando una función acepta varios argumentos, llamar a la función con argumentos de palabras clave mejora la legibilidad.
  
@@ -942,7 +942,7 @@ print(numeros_positivos)  # [5, 8, 3]
 
 En definitiva, el uso de funciones lambda ayuda a reducir el código y en ciertos casos evita nombrar funciones que solo se utilizan una vez, aportando a su vez una mayor concisión. 
 
-### Usos y Prácticas Recomendadas
+### Prácticas Recomendadas:
 
 - Limitación al Uso Simple: Hay que utilizar las funciones lambda para pequeñas funcionalidades que no requieren complejidad.
 - No Sobrecargar: Se debe evitar usar lambdas complejas o de difícil comprensión y, en la medida de lo posible, documentar su propósito para facilitar la comprensión del código.
@@ -1210,7 +1210,7 @@ De esta manera, nuestro paquete privado se instalará en el ambiente virtual de 
 
 Pip es una herramienta muy poderosa que nos facilita enormemente la tarea de administrar las dependencias de nuestros proyectos. En definitiva, pip es una de las herramientas básicas que todo desarrollador de Python debería conocer para optimizar su trabajo.
 
- ### Prácticas Recomendadas
+ ### Prácticas Recomendadas:
 
 - No se debe añadir manualmente ningún fichero dentro de una carpeta que almacena un entorno virtual. Esta carpeta sólo debe contener los ficheros que se crean por defecto al crear el entorno virtual y los paquetes adicionales que hayamos instalado con el comando pip.
 
